@@ -17,11 +17,11 @@ sudo docker ps -a
 
 sudo docker logs + tres primeiros caractares do CONTAINER ID
   
-sudo docker start +<tres primeiros caractares do CONTAINER ID>
+sudo docker start + tres primeiros caractares do CONTAINER ID
 
 * para parar a execucao
 
-sudo docker stop <tres primeiros caractares do CONTAINER ID>
+sudo docker stop + tres primeiros caractares do CONTAINER ID
 
 ### URL para teste
 
