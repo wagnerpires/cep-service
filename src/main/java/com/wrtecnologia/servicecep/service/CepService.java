@@ -7,34 +7,23 @@ import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.Serializable;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 @Service
-public class CepService implements Serializable {
-    private static final long serialVersionUID = 1L;
+public class CepService {
 
-    private static final String webService = "http://viacep.com.br/ws/";
+    private static final String WEB_SERVICE = "http://viacep.com.br/ws/";
 
     public static Cep buscaEnderecoPeloCep(String cep) throws Exception {
-
-        String urlParaChamada = webService + cep + "/json";
+        String urlViaCep = WEB_SERVICE + cep + "/json";
         try {
-            URL url = new URL(urlParaChamada);
-            HttpURLConnection conexao = (HttpURLConnection) url.openConnection();
-
-            if (conexao.getResponseCode() != 200)
-                throw new Exception("Erro HTTP: " + conexao.getResponseCode());
-
-            BufferedReader resposta = new BufferedReader(new InputStreamReader((conexao.getInputStream())));
-            String jsonEmString = CepUtil.converteJsonEmString(resposta);
-
+            URL url = new URL(urlViaCep);
+            HttpURLConnection httpURLConn = (HttpURLConnection) url.openConnection();
+            BufferedReader response = new BufferedReader(new InputStreamReader((httpURLConn.getInputStream())));
+            String jsonEmString = CepUtil.converteJsonEmString(response);
             Gson gson = new Gson();
-            Cep endereco = gson.fromJson(jsonEmString, Cep.class);
-
-            return endereco;
-
+            return gson.fromJson(jsonEmString, Cep.class);
         } catch (Exception e) {
             throw new Exception(e);
         }
