@@ -3,7 +3,17 @@
 Serviço de busca de cep no backend
 
 ### Baixar a imagem do DockerHub
-docker push wagnerpires/servicecep-wrtecnologia:v1
+sudo docker pull wagnerpires/servicecep-wrtecnologia:v1
+
+* na primeira execucao
+sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep-wrtecnologia:v1
+
+* a partir da primeira execucao
+sudo docker ps -a
+sudo docker logs <tres primeiros caractares do CONTAINER ID>
+sudo docker start <tres primeiros caractares do CONTAINER ID>
+* para parar a execucao
+sudo docker stop <tres primeiros caractares do CONTAINER ID>
 
 ### URL para teste
 http://<ip_do_servidor>/endereco/<cep_desejado>
