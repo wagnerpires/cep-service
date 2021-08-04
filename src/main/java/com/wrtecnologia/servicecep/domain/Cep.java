@@ -9,9 +9,7 @@ import java.io.Serializable;
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cep implements Serializable {
-    private static final long serialVersionUID = 1L;
-
+public class Cep {
     public String cep;
     public String logradouro;
     public String complemento;
