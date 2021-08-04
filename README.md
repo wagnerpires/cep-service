@@ -6,7 +6,7 @@ Serviço de busca de cep no backend
 docker push wagnerpires/servicecep-wrtecnologia:v1
 
 ### URL para teste
-http://<ip_do_servidor>/endereco/<cep>
+http://<ip_do_servidor>/endereco/<cep_desejado>
   
 * substituir o <ip_do_servidor> pelo endereço IP do servidor onde o serviço foi iniciado
-* substituir o <cep> pelo CEP desejado
+* substituir o <cep_desejado> pelo CEP desejado
