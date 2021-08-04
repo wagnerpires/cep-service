@@ -9,21 +9,21 @@ sudo docker pull wagnerpires/servicecep-wrtecnologia:v1
 
 ### Execução
 
-* na primeira execucao
+* na primeira execução
 
   sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep-wrtecnologia:v1
 
-* a partir da primeira execucao
+* a partir da primeira execução
 
   sudo docker ps -a
 
-  sudo docker logs + tres primeiros caractares do CONTAINER ID (listado no comando acima)
+  sudo docker logs + três primeiros caractares do CONTAINER ID (listado no comando acima)
   
-  sudo docker start + tres primeiros caractares do CONTAINER ID
+  sudo docker start + três primeiros caractares do CONTAINER ID
 
 * para parar a execução
 
-  sudo docker stop + tres primeiros caractares do CONTAINER ID
+  sudo docker stop + três primeiros caractares do CONTAINER ID
 
 ### URL para teste
 
