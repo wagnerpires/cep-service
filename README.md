@@ -2,7 +2,7 @@
 
 Serviço de busca de cep no backend
 
-### Instruções de execução do docker do projeto
+## Instruções de execução do docker do projeto
 
 ### Baixar a imagem do DockerHub
 sudo docker pull wagnerpires/servicecep-wrtecnologia:v1
