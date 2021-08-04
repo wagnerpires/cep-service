@@ -11,7 +11,7 @@ sudo docker pull wagnerpires/servicecep-wrtecnologia:v1
 
 * na primeira execucao
 
-sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep-wrtecnologia:v1
+  sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep-wrtecnologia:v1
 
 * a partir da primeira execucao
 
