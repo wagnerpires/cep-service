@@ -15,9 +15,9 @@ sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep
 
 sudo docker ps -a
 
-sudo docker logs <<tres primeiros caractares do CONTAINER ID>>
+sudo docker logs + tres primeiros caractares do CONTAINER ID
   
-sudo docker start '<tres primeiros caractares do CONTAINER ID>
+sudo docker start +<tres primeiros caractares do CONTAINER ID>
 
 * para parar a execucao
 
