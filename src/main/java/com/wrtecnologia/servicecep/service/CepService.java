@@ -24,6 +24,7 @@ public class CepService {
             String jsonEmString = CepUtil.converteJsonEmString(response);
             Gson gson = new Gson();
             return gson.fromJson(jsonEmString, Cep.class);
+            
         } catch (Exception e) {
             throw new Exception(e);
         }
