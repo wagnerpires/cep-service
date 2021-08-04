@@ -10,5 +10,3 @@ public class ServiceCepApplication {
         SpringApplication.run(ServiceCepApplication.class, args);
     }
 }
-
-

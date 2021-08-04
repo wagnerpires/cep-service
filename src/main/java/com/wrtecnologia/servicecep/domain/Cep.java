@@ -2,8 +2,6 @@ package com.wrtecnologia.servicecep.domain;
 
 import lombok.*;
 
-import java.io.Serializable;
-
 @Getter
 @Setter
 @EqualsAndHashCode
