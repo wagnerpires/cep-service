@@ -5,6 +5,8 @@ Serviço de busca de cep no backend
 ### Baixar a imagem do DockerHub
 sudo docker pull wagnerpires/servicecep-wrtecnologia:v1
 
+### Execução
+
 * na primeira execucao
 
 sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep-wrtecnologia:v1
