@@ -1,4 +1,4 @@
-package com.wrtecnologia.servicecep.util;
+package com.wrtecnologia.cepservice.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

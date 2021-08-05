@@ -1,7 +1,7 @@
-package com.wrtecnologia.servicecep.controller;
+package com.wrtecnologia.cepservice.controller;
 
-import com.wrtecnologia.servicecep.domain.Cep;
-import com.wrtecnologia.servicecep.service.CepService;
+import com.wrtecnologia.cepservice.domain.Cep;
+import com.wrtecnologia.cepservice.service.CepService;
 
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;

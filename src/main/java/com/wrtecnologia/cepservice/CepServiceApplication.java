@@ -1,12 +1,12 @@
-package com.wrtecnologia.servicecep;
+package com.wrtecnologia.cepservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceCepApplication {
+public class CepServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceCepApplication.class, args);
+        SpringApplication.run(CepServiceApplication.class, args);
     }
 }

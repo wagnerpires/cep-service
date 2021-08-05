@@ -1,4 +1,4 @@
-package com.wrtecnologia.servicecep.domain;
+package com.wrtecnologia.cepservice.domain;
 
 import lombok.*;
 

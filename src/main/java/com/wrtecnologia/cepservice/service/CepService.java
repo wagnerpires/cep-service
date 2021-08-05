@@ -1,7 +1,7 @@
-package com.wrtecnologia.servicecep.service;
+package com.wrtecnologia.cepservice.service;
 
-import com.wrtecnologia.servicecep.domain.Cep;
-import com.wrtecnologia.servicecep.util.CepUtil;
+import com.wrtecnologia.cepservice.domain.Cep;
+import com.wrtecnologia.cepservice.util.CepUtil;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +24,7 @@ public class CepService {
             String jsonEmString = CepUtil.converteJsonEmString(response);
             Gson gson = new Gson();
             return gson.fromJson(jsonEmString, Cep.class);
-            
+
         } catch (Exception e) {
             throw new Exception(e);
         }

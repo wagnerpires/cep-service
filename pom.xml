@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wrtecnologia</groupId>
-    <artifactId>servicecep-wrtecnologia</artifactId>
+    <artifactId>cepservice-wrtecnologia</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>servicecep</name>
-    <description>ServiceCep</description>
+    <name>cepservice</name>
+    <description>CepService</description>
     <properties>
         <java.version>11</java.version>
     </properties>
