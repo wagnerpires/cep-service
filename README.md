@@ -2,7 +2,19 @@
 
 Serviço de busca de cep no backend
 
-## Instruções de execução do docker do serviço
+## INSTRUÇÕES PARA EXECUÇÃO PADRÃO
+
+$ mvn clean install
+$ java -jar ./target/cepservice-wrtecnologia-0.0.1-SNAPSHOT.jar
+
+### URL para teste
+http://localhost:8080/endereco/<cep_desejado>
+
+### Swagger UI (API Documentation)
+http://localhost:8080/swagger-ui/index.html
+
+
+## INSTRUÇÕES DE EXECUÇÃO VIA IMAGEM DOCKER
 
 ### Baixar a imagem do DockerHub
 sudo docker pull wagnerpires/cepservice-wrtecnologia:v2
