@@ -9,7 +9,7 @@ $ mvn clean install
 $ java -jar ./target/cepservice-wrtecnologia-0.0.1-SNAPSHOT.jar
 
 ### URL para teste
-http://localhost:8080/endereco/<cep_desejado>
+http://localhost:8080/endereco/``- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)#f03c15`<cep_desejado>
 
 ### Swagger UI (API Documentation)
 http://localhost:8080/swagger-ui/index.html
