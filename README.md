@@ -1,6 +1,6 @@
 # cep-service
 
-Serviço de busca de cep no backend
+Serviço de busca de cep (backend)
 
 ## INSTRUÇÕES PARA EXECUÇÃO PADRÃO
 
