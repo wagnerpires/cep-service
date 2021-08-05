@@ -9,7 +9,7 @@ sudo docker pull wagnerpires/servicecep-wrtecnologia:v1
 
 ### Execução
 
-* na primeira execução
+* na primeira execução (criação do container)
 
   sudo docker run -p 80:8080 --name servicecep-wrtecnologia wagnerpires/servicecep-wrtecnologia:v1
 
