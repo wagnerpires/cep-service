@@ -5,6 +5,7 @@ Serviço de busca de cep (backend)
 ## INSTRUÇÕES PARA EXECUÇÃO PADRÃO
 
 $ mvn clean install
+
 $ java -jar ./target/cepservice-wrtecnologia-0.0.1-SNAPSHOT.jar
 
 ### URL para teste
