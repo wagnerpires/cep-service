@@ -31,3 +31,7 @@ http://<ip_do_servidor>/endereco/<cep_desejado>
   
 * substituir o <ip_do_servidor> pelo endereço IP do servidor onde o serviço foi iniciado
 * substituir o <cep_desejado> pelo CEP desejado
+
+### Swagger UI (API Documentation)
+
+http://<ip_do_servidor>/swagger-ui/index.html
