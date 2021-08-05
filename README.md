@@ -1,4 +1,4 @@
-# service-cep
+# cep-service
 
 Serviço de busca de cep no backend
 
