@@ -15,6 +15,8 @@ import java.util.function.Predicate;
 @Configuration
 public class SwaggerConfig {
 
+	// url: http://localhost/swagger-ui/index.html
+
 	ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
 				.title("CEP Service API")

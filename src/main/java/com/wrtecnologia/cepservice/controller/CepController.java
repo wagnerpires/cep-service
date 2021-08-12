@@ -25,6 +25,7 @@ public class CepController {
 
 //  @GetMapping(path = "/{cep}")
 //  public ResponseEntity<Cep> buscaEnderecoPeloCep(@PathVariable("cep") String cep) throws Exception {
+
     @GetMapping
     public ResponseEntity<Cep> buscaEnderecoPeloCep(@RequestParam(value = "cep", defaultValue = "") String cep) throws Exception {
         try {
