@@ -18,13 +18,13 @@ http://localhost/swagger-ui/index.html
 ## INSTRUÇÕES DE EXECUÇÃO VIA IMAGEM DOCKER
 
 ### Baixar a imagem do DockerHub
-$ sudo docker pull wagnerpires/cepservice-wrtecnologia:v2
+$ sudo docker pull wagnerpires/cepservice-wrtecnologia:v3
 
 ### Execução
 
 * na primeira execução (criação do container)
 
-  $ sudo docker run -p 80:8080 --name cepservice-wrtecnologia wagnerpires/cepservice-wrtecnologia:v2
+  $ sudo docker run -p 80:8080 --name cepservice-wrtecnologia wagnerpires/cepservice-wrtecnologia:v3
 
 * a partir da primeira execução
 
