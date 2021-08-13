@@ -20,7 +20,7 @@ public class SwaggerConfig {
 	ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
 				.title("CEP Service API")
-				.description("Serviço de consulta de cep no backend")
+				.description("Serviço de consulta de cep")
 				.license("Apache 2.0")
 				.licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
 				.termsOfServiceUrl("")
@@ -35,7 +35,7 @@ public class SwaggerConfig {
 		  .select()
 		  .apis(RequestHandlerSelectors.any())
 		  .paths(PathSelectors.any())
-	      .paths(Predicate.not(PathSelectors.regex("/error.*")))
+	          .paths(Predicate.not(PathSelectors.regex("/error.*")))
 		  .build()
 		  .apiInfo(apiInfo());
 	}
